@@ -1,0 +1,481 @@
+#include<stdio.h>
+
+void house()
+{
+    int i,j,k,n,w;
+    n=6,w=7;
+    printf("\n\n");
+	for(j=1;j<=8;j++) // 1st line
+		{
+			printf(" ");
+		}
+	for(i=1;i<=15;i++)
+	    {
+		printf("*");
+     	}
+	for(j=1;j<=1;j++)
+		{
+			printf("\n");
+		}
+    for(i=1;i<=6;i++)//2nd line
+		{
+			printf(" ");
+		}
+	for(i=1;i<=2;i++)
+		{
+			printf("*");
+		}
+	for(i=1;i<=2;i++)
+		{
+			printf(" ");
+		}
+	  printf("*");
+	for(i=1;i<=13;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(j=1;j<=1;j++)//3rd line
+		{
+			printf("\n");
+		}
+		for(i=1;i<=4;i++)
+		{
+			printf(" ");
+		}
+	for(i=1;i<=2;i++)
+		{
+			printf("*");
+		}
+	for(i=1;i<=6;i++)
+		{
+			printf(" ");
+		}
+	  printf("*");
+	for(i=1;i<=13;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(j=1;j<=1;j++)	//4th line
+		{
+			printf("\n");
+		}
+		for(i=1;i<=2;i++)
+		{
+			printf(" ");
+		}
+	for(i=1;i<=2;i++)
+		{
+			printf("*");
+		}
+	for(i=1;i<=10;i++)
+		{
+			printf(" ");
+		}
+	  printf("*");
+	for(i=1;i<=13;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(j=1;j<=1;j++)//5th line
+		{
+			printf("\n");
+		}
+		
+	for(i=1;i<=2;i++)
+		{
+			printf("*");
+		}
+	for(i=1;i<=14;i++)
+		{
+			printf(" ");
+		}
+	
+	for(i=1;i<=14;i++)
+	{
+		printf("*");
+	}
+	printf("**\n ");
+	//6th line
+	printf("*  ");
+	for(i=1;i<=n;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(i=1;i<=5;i++)
+	{
+		printf(" ");
+	}
+	for(i=1;i<=w;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*\n ");
+	//7th line
+	printf("*  ");
+	for(i=1;i<=n;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(i=1;i<=5;i++)
+	{
+		printf(" ");
+	}
+	for(i=1;i<=w;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*\n ");
+	//8th line
+	printf("*  ");
+	for(i=1;i<=n;i++)
+	{
+		if(i)
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(i=1;i<=5;i++)
+	{
+		printf(" ");
+	}
+	for(i=1;i<=w;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*\n ");
+	//9th line
+	printf("*  ");
+	for(i=1;i<=n;i++)
+	{
+		printf("*");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*");
+	for(i=1;i<=5;i++)
+	{
+		printf(" ");
+	}
+	for(i=1;i<=7;i++)
+	{
+		printf(" ");
+	}
+	for(i=1;i<=3;i++)
+	{
+		printf(" ");
+	}
+	printf("*\n");
+	//10th line
+	printf("******");
+	for(i=1;i<=26;i++)
+	{
+		printf("*");
+	}
+	
+	printf("\n\n\t\t Hope you like it !!!\n\n\n\n");	
+}
+
+
+void cake()
+{
+	int i;
+	printf("\n\n");
+	for(i=0;i<=13;i++)//1st
+	 printf(" ");
+	 for(i=0;i<=3;i++)
+	 printf("i ");
+	 printf("\n");
+	for(i=0;i<=13;i++)//2nd
+	 printf(" ");
+	 for(i=0;i<=3;i++)
+	 printf("i ");
+	 printf("\n");
+	for(i=0;i<=13;i++)//3rd
+	 printf(" ");
+	 for(i=0;i<=3;i++)
+	 printf("i ");
+	 printf("\n");
+	for(i=0;i<=10;i++)//4th
+	 printf(" ");
+	 for(i=0;i<13;i++)
+	 printf("-");
+	 printf("\n");
+	 for(i=0;i<=10;i++)//5th
+	 printf(" ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	printf(" H A P P Y ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	 printf("\n");
+	for(i=0;i<=6;i++)//6th 
+	 printf(" ");
+	 for(i=0;i<23;i++)
+	 printf("-");
+	 printf("\n");
+	for(i=0;i<=6;i++)//7th 
+	 printf(" ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	 printf("   B I R T H D A Y   ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	 printf("\n");
+	for(i=0;i<=3;i++)//8th
+	 printf(" ");
+	 for(i=0;i<29;i++)
+	 printf("-");
+	 printf("\n");
+	for(i=0;i<=3;i++)//9th
+	 printf(" ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	 
+	 printf(" !! May , God bless you !! ");
+	for(i=0;i<1;i++)
+	 printf("|");
+	 printf("\n");
+	for(i=0;i<=3;i++)//10th
+	 printf(" ");
+	 for(i=0;i<29;i++)
+	 printf("-");
+	 printf("\n");
+	 printf("\n\n\t\t Hope you like it !!!\n\n\n\n\n");	 
+}
+
+void build()
+{
+	int i;
+	printf("\n\n");
+   for(i=0;i<13;i++)//1st
+   printf(" ");
+   printf("_____________\n");
+    for(i=0;i<12;i++)//2nd
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|             |\n");
+    for(i=0;i<12;i++)//3nd
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("| ***         |\n");
+    for(i=0;i<12;i++)//4th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("| ***         |\n");
+   for(i=0;i<12;i++)//5th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|             |\n");
+    for(i=0;i<12;i++)//6th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|         *** |\n");
+   for(i=0;i<12;i++)//7th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|         *** |\n");
+   for(i=0;i<12;i++)//8th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|             |\n");
+   for(i=0;i<12;i++)//9th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|             |\n");
+   for(i=0;i<12;i++)//10th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|   *******   |\n");
+   for(i=0;i<12;i++)//11th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|   *******   |\n");
+   for(i=0;i<12;i++)//12th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("|   *******   |\n");
+   for(i=0;i<11;i++)//13th
+   printf(" ");
+   for(i=0;i<1;i++)
+   printf("_|___*******___|_\n");
+   for(i=0;i<10;i++)
+   printf(" ");
+   printf("|_________________|\n\n");
+   
+   printf("\n\n\t\t Hope you like it !!!\n\n\n\n\n");
+}
+
+void tree()
+{
+	int i;
+	printf("\n\n");
+	for(i=0;i<=43;i++)//1st
+	printf(" ");
+	printf(" *\n");
+	for(i=0;i<=42;i++)//2nd
+	printf(" ");
+	printf("*   *\n");
+	for(i=0;i<=40;i++)//3rd
+	printf(" ");
+	printf("*   *   *\n");
+	for(i=0;i<=38;i++)//4th
+	printf(" ");
+	printf("*  0  *  *  *\n");
+	
+	for(i=0;i<=42;i++)//5th
+	printf(" ");
+	printf("*   *\n");
+	for(i=0;i<=40;i++)//6th
+	printf(" ");
+	printf("*   *   *\n");
+	for(i=0;i<=38;i++)//7th
+	printf(" ");
+	printf("*  *  *  0  *\n");
+	for(i=0;i<=36;i++)//8th
+	printf(" ");
+	printf("*  *  *  *  #   *  \n");
+	for(i=0;i<=34;i++)//9th
+	printf(" ");
+	printf("*  0  *  *  *   *   *  \n");
+	for(i=0;i<=32;i++)//10th
+	printf(" ");
+	printf("*  $  *  *  *   0   *   *\n");
+	
+	for(i=0;i<=40;i++)//11th
+	printf(" ");
+	printf(" *  *  *\n");
+	for(i=0;i<=38;i++)//12th
+	printf(" ");
+	printf("*   0   *  *\n");
+	for(i=0;i<=36;i++)//13th
+	printf(" ");
+	printf("*   *   *   *  *\n");
+	for(i=0;i<=34;i++)//14th
+	printf(" ");
+	printf("*   *   *   *   #  *\n");
+	for(i=0;i<=32;i++)//15th
+	printf(" ");
+	printf("*   *   $   *   *   *   *  \n");
+	for(i=0;i<=30;i++)//16th
+	printf(" ");
+	printf("$  *  *  *   *   *   *   *  *\n");
+	for(i=0;i<=28;i++)//17th
+	printf(" ");
+	printf("*  *  *  *  0   *   *   *   *   &\n");
+	for(i=0;i<=26;i++)//18th
+	printf(" ");
+	printf("*   0  *  *  *  *   *   *   0   *   *\n");
+	
+	for(i=0;i<=38;i++)
+	printf(" ");
+	printf("| | | | | | |\n");
+		for(i=0;i<=38;i++)
+	printf(" ");
+	printf("| | | | | | |\n");
+		for(i=0;i<=38;i++)
+	printf(" ");
+	printf("| | | | | | |\n");
+		for(i=0;i<=38;i++)
+	printf(" ");
+	printf("| | | | | | |\n");
+		for(i=0;i<=38;i++)
+	printf(" ");
+	printf("| | | | | | |\n");
+		for(i=0;i<=37;i++)
+	printf(" ");
+	printf("_|_|_|_|_|_|_|_\n");
+	printf("\n\n\t\t Hope you like it !!!\n\n\n");
+}
+
+void option()
+{
+	printf("\n\tWhat type of Design you want to see : \n\n");
+	printf("\t   Enter 1 : See House \n");
+	printf("\t   Enter 2 : See Cake \n");
+	printf("\t   Enter 3 : See Building \n");
+	printf("\t   Enter 4 : See Christmas Tree \n\n\n");
+	int c;
+	printf("\t    Enter your choice : ");
+	scanf("%d",&c);
+	switch(c)
+	{
+		case 1 :
+		         house();
+		         break;
+		case 2 :
+		         cake();
+		         break;
+	    case 3 :
+		         build();
+		         break;
+		case 4 : 
+		         tree();
+		         break;
+	   default :
+	             printf("\n\t\tSorry , We not have such option !!!!\n\n");
+		         break;
+		         
+	}
+}
+
+int main()
+{
+	char name[20];
+	printf("\tEnter Your Name : ");
+	gets(name);
+	printf("\n\tHello %s , Nice to meet you \n\n\n",name);
+	printf("\t\t\t\t\t\t\t\t\t\t!!!! Welcome to my Fist Project !!!!\n\n");
+	option();
+	do
+	{
+		printf("\n\tEnter 1 : Next");
+	    printf("\n\tEnter 2 : Exit");
+	    int c;
+	    printf("\n\tEnter your choice : ");
+	    scanf("%d",&c);
+	   switch(c)
+	   {
+		 case 1 :
+		         option();
+		         break;
+		 case 2 :printf("\n\n\t\tThank you\n\n");
+		         return 0;
+		         break;
+	     default :
+	             printf("\n\tSorry , We not have such option !!!!\n\n");
+		         break;
+	   }
+    }while(1);  
+	 
+	return 0;
+}
