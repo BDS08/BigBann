@@ -1,0 +1,165 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int logi=1202000;
+
+//for withdraw
+void withdraw()
+ {
+	int curr=7000;
+	int am;
+	cout<<"\n\tEnter Amount : ";
+	cin>>am;
+	if(curr<=am)
+	{
+	    cout<<"\n\tSorry , You don't have sufficient balance\n";
+	}
+	else
+	{
+		cout<<"\n\tWithdraw "<<am<<" Successfully , ";
+		curr=curr-am;
+		cout<<"\n\tYour current balance is "<<curr<<"\n\n";
+	}	
+ }
+
+//for deposite 
+ void deposite()
+ {
+    int curr=7000;
+    int dep;
+    cout<<"\n\tEnter the amount to Deposite : ";
+	cin>>dep;
+	dep=dep+curr;
+	cout<<"\n\tAmount deposite successfully";
+	cout<<"\n\tCurrent amount is "<<dep<<"\n\n";
+		
+ }
+ 
+ //to check current balance
+ void bal()
+  { 
+    long int curr=7000;
+    cout<<"\n\tCurrent Balance = "<<curr<<"\n";
+     
+  }
+
+//for login 
+int login()
+{
+
+	int acc;
+	cout<<"\n\n\tEnter your Account No : ";
+	cin>>acc;
+	if(logi!=acc)
+	{
+		cout<<"\n\tInvalid Account Number";
+		int c;
+	    cout<<"\n\n\tEnter 1 : Try Again";
+	    cout<<"\n\tEnter 2 : To Exit";
+	    cout<<"\n\n\tEnter your choice : ";
+	    cin>>c;
+	    if(c==1)
+	      login();
+	    else
+		{
+	       cout<<"\n\n\t\tThanks to use itt !!!";
+	       return 0;	
+		}
+	}
+	else{
+		int c;
+     	cout<<"\n\tSuccessfully login\n";	
+    	cout<<"\n\tEnter 1 : To Check your current Balance";
+	    cout<<"\n\tEnter 2 : To Withdraw";
+	    cout<<"\n\tEnter 3 : To Diposite";
+	    cout<<"\n\n\tEnter your choice : ";
+	    cin>>c;
+	    switch(c)
+	    {
+	    	case 1:
+	    		   bal();
+	    		   break;
+	    	case 2:
+			      withdraw();
+				  break;
+			case 3:
+			      deposite();
+				  break;
+		    default:
+			        cout<<"Sorry , we don't have such option.";	  	  	   
+		}
+	}
+}
+
+//for create a new account
+void create()
+{
+	char name[20];
+	char mn[15];
+	char email[30];
+	char str[5];
+	gets(str);
+	cout<<"\n\tEnter your details : ";
+	cout<<"\n\t Name      : ";
+	gets(name);
+	cout<<"\t Mobile no : ";
+	gets(mn);
+	cout<<"\t Email Id  : ";
+	gets(email);
+	cout<<"\n\n\tYour Account successfully created : ";
+	cout<<"\n\t Name       : ";
+	puts(name);
+	cout<<"\t Mobile No  : ";
+	puts(mn);
+	cout<<"\t Email Id   : ";
+	puts(email);
+	cout<<"\t Account No : "<<logi<<"\n\n";
+}
+
+int main()
+{
+	int c;
+	cout<<"\n\t\t\t\t!!!!!! Welcome to JSR Bank Of India !!!!!!";
+	 cout<<"\n\n\tEnter 1 : To Create Account";
+	 cout<<"\n\tEnter 2 : To login";
+	 cout<<"\n\n\tEnter your choice : ";
+     cin>>c;
+	 switch(c)
+	 {
+	    case 1: create();
+	            break;
+	    case 2: login();
+	         	break; 
+   	    default:cout<<"\n\n\tSorry , we don't have such option";
+		         break; 
+     } 
+     do{
+		int c;	
+    	cout<<"\n\tEnter 1 : To Check your Balance";
+	    cout<<"\n\tEnter 2 : To Withdraw";
+	    cout<<"\n\tEnter 3 : To Diposite";
+	    cout<<"\n\tEnter 4 : To LogOut";
+	    cout<<"\n\n\tEnter your choice : ";
+	    cin>>c;
+	    switch(c)
+	    {
+	    	case 1:
+	    		   bal();
+	    		   break;
+	    	case 2:
+			      withdraw();
+				  break;
+			case 3:
+			      deposite();
+				  break;
+			case 4:
+			       cout<<"\n\n\tSuccessfully LogOut\n\t Thank You \n\n";
+			       return 0;
+				   break;	  
+		    default:
+			        cout<<"Sorry , we don't have such option.";	  	  	   
+		}
+	 }while(1);
+}
