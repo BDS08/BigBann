@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main()
+{
+   printf("\n\n\t\t\t!!!!!!!!!!!! WELCOME TO GUESSING GAME !!!!!!!!!!!!\n");
+   printf("\n\t\t\t**************************************************");
+   printf("\n\t\t\t Instruction :- ");
+   printf("\n\t\t\t\t  1. For incorrect answer , computer \n\t\t\t\t     requested to try again.");
+   printf("\n\t\t\t\t  2. For correct answer , you get a \n\t\t\t\t     reward. ");
+   printf("\n\n\t\t\t**************************************************");
+   printf("\n\n\t\t\t  Let's Start the game ... ");
+   int n;
+    do{
+   	    printf("\n\n\t\t\t\t Enter a number between 1 to 20 :  ");
+   	    scanf("%d",&n);
+   	    
+           if(n>=14)
+		    {
+		        printf("\n\t\t\t\t\tSorry , Try again");
+   	  	   	    printf("\n\t\t\t\t\tNumber is too large");
+   	  	    }
+   	  	   	else if(n<13)
+		    { 
+			    printf("\n\t\t\t\t\tSorry , Try again");
+   	  	   	    printf("\n\t\t\t\t\t\Number is too small");
+   	  	    }
+			else if(n==13) 
+			{
+			    printf("\n\t\t\t\t#### Congrats , You win the game #### ");
+			    printf("\n\n\t\t\t\t\t Thank You For Playing \n");
+			    printf("\n\t\t\t**************************************************\n\n");
+			    return 0;
+		    }  
+			else
+			     printf("... We don't have such option ...");                    						            
+   	  	    
+     }while(1);
+	  	  
+   return 0;
+}
