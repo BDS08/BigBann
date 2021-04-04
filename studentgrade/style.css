@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(11, 131, 211);
+  
+    color:whitesmoke;
+}
+.content{
+    padding: 4%;
+}
+.red{
+    background-color: red;
+    padding: 4%;
+}
+
+.blue{
+    background-color: blue;
+    padding: 4%;
+}
+.whit{
+   background-color: whitesmoke;
+   color:black;
+   
+}
+.container-fluid{
+    width: 100%;
+}
